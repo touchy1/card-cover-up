@@ -1,0 +1,50 @@
+#nav{
+    border: 2px solid red;
+    width:700px; height: 250px;
+    border-radius: 20px
+} 
+#nav ul{
+    /* padding: 0px; */
+}
+#nav li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+
+}
+#nav li a:first-child{
+    display: block;
+    text-indent: -200px;
+    overflow: hidden;
+    width: 200px; height: 200px;
+  
+}
+#nav a.m1{
+    background-image: url(h1.jfif);
+}
+#nav a.m2{
+    background: url(h2.jfif)
+}
+#nav a.m3{
+    background: url(h3.jfif)
+}
+#nav li a:last-child{
+    display: block;
+    width: 200px; height: 200px;
+    background: rgba(0, 0, 255, .5);
+    position: absolute;
+    top: 201px; left: 0px;
+    font-family: sans-serif;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    transition: top 400ms ease-in-out;
+}
+#nav li:hover a:last-child{
+    top: 0px;
+}
